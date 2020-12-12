@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(fon_1.gif);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#head{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30pt;
+	width:30%;
+	background-color:#9F0;
+	float:left;
+	text-align:center;
+	margin-right:5px;
+	margin-top:30px;
+}
+#head1{
+	margin-left:4%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30pt;
+	width:30%;
+	background-color:#9F0;
+	text-align:center;
+	float:left;
+	margin-top:30px;
+}
+#head2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30pt;
+	text-align:center;
+	margin-top:30px;
+	background-color:#9F0;
+	width:30%;
+	float:right;
+}
+.photo{
+	margin-bottom:5%;
+	margin-left:10%;
+	margin-top:10px;
+	text-align:center;
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+.conteiner{
+	width:30%;
+	margin-top:10px;
+	margin-left:;
+	float:left;
+	background-color:#9F6;
+}
+.conteiner1{
+	margin-top:10px;
+	margin-bottom:2px;
+	float:right;
+	width:35%;
+	background-color:#0C3;
+}
+.conteiner2{
+	margin-top:10px;
+	margin-left:5%;
+	float:left;
+	width:25%;
+	background-color:#0F9;}
+.conteiner3{
+	background-color:#096;
+	margin-top:20%;
+	width:100%;
+	position:absolute;
+	}
+.text{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-left: 10px;
+}
+.title{
+	font-family:"MS Serif", "New York", serif;
+	font-style:normal;
+	text-align:center;
+	font-size:25pt;
+}
+.titl{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	text-align:left;
+	margin-left:20px;
+}
+.progress1 {
+	margin-left:10p;
+  height: 4px;
+  background: silver;
+}
+
+.progress1::before {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 100%;
+  background: #F00;
+}
+.progress2 {
+  height: 4px;
+  background: silver;
+}
+
+.progress2::before {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 100%;
+  background: #003;
+}
+.progress3 {
+  height: 4px;
+  background: silver;
+}
+
+.progress3::before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 100%;
+  background: #960;
+}
+.progress4 {
+  height: 4px;
+  background: silver;
+}
+
+.progress4::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: #FF0;
+}
+.progress5 {
+  height: 4px;
+  background: silver;
+}
+
+.progress5::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 100%;
+  background: #09F;
+}
+.progress6 {
+  height: 4px;
+  background: silver;
+}
+
+.progress6::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 100%;
+  background: #000;
+}
+.date{
+	float:right;
+	margin-right:10px;
+}
