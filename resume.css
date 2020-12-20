@@ -163,3 +163,7 @@ body{
 	float:right;
 	margin-right:10px;
 }
+.link{
+	float:left;
+	width:10%;
+}
